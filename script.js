@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentEditId = null;
     
     // API base URL
-    const API_URL = 'http://localhost:3000/api';
+     const API_URL = "https://hellokitty-three.vercel.app/api";
     
     // Initialize the app
     async function init() {
@@ -516,5 +516,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Initialize the app
-    init();
+    init()
+
 });
