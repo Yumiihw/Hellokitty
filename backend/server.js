@@ -7,6 +7,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middlewares
+// Adicione esta linha (mantendo o app.listen)
+module.exports = app;
 app.use(cors());
 app.use(express.json());
 

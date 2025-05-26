@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('date').value = today;
         document.getElementById('forecast').value = today;
     }
-    
+
     // Fetch data from backend
     async function fetchData() {
         try {
