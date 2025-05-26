@@ -1,9 +1,13 @@
+
 {
   "version": 2,
   "builds": [
     {
       "src": "backend/server.js",
-      "use": "@vercel/node"
+      "use": "@vercel/node",
+      "config": { 
+        "includeFiles": ["backend/database.sqlite"] 
+      }
     }
   ],
   "routes": [

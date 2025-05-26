@@ -136,3 +136,5 @@ app.listen(PORT, () => {
   console.log(`\n🎀 Servidor Hello Kitty rodando na porta ${PORT}`);
   console.log(`🔗 Acesse: http://localhost:${PORT}\n`);
 });
+// Exportação obrigatória para o Vercel
+module.exports = app;
